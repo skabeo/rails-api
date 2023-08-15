@@ -2,13 +2,13 @@
 
 <div align="center">
     <br>
-  <h1 style="font-size: 35px; color: lightblue"><b>My Tracker</b></h1>
+  <h1 style="font-size: 35px; color: lightblue"><b>Rails api</b></h1>
 </div>
 
 # 📗 Table of Contents <a id="table-of-contents"></a>
 
 - [📗 Table of Contents ](#-table-of-contents-)
-- [📖 My Tracker Project ](#-catalog-ruby-project-)
+- [📖 Rails api Project ](#-catalog-ruby-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -16,8 +16,7 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Test](#test)
-    - [Live demo](#live)
+    - [Frontend repository](#front)
   - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -28,9 +27,10 @@
 
 <br>
 
-# 📖 My Tracker <a id="about-project"></a>
+# 📖 Rails api <a id="about-project"></a>
 
-**My Tracker**. Explore the captivating tale of transactions within a category through this enchanting webpage. Experience the ups, downs and surprising turns as numbers come together and navigate their path through the ledger.
+**Rails api**  is the repository responsible for managing the backend of the greetings webpage. It handles data processing and interactions, ensuring a seamless user experience.
+
 
 ## 🛠 Built With <a id="built-with"></a>
 
@@ -58,10 +58,7 @@
 
 ### Key Features <a id="key-features"></a>
 
-- User authentication
-- Users can add a transaction category
-- Users can add category details
-- Users can sign out
+- A Greeting model to hold messages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +67,7 @@
 
 ### Prerequisites
 
-In order to reproduce the receipe-app and be able to make changes for your own purpose, you need the following tools:
+In order to reproduce the rails-api and be able to make changes for your own purpose, you need the following tools:
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [git-scm](https://git-scm.com/)
 - A [Github](https://github.com/) account
@@ -80,7 +77,7 @@ In order to reproduce the receipe-app and be able to make changes for your own p
 Clone this repository to your desired folder by running the following command:
 
 ```sh
-  git clone https://github.com/skabeo/23-books.git
+  git clone https://github.com/skabeo/rails-api.git
 ```
 
 ### Install
@@ -90,7 +87,7 @@ To use this application, you need to have `ruby` and `rails gem` installed on yo
 Run bundle install to install all dependencies
 
 ```sh
-  cd 23-books
+  cd rails-api
   bundle install
 
 ```
@@ -101,22 +98,9 @@ Once you have the files on your machine, you can view it on your browser on `htt
 rails server
 ```
 
-### Run tests
+### Frontend repository
+To access the frontend script that utilises this backend script, please refer to the instructions in the README of the frontend repository linked [here](https://github.com/skabeo/rails-api)
 
-To run model tests,run the following command:
-```
-rspec spec/models
-```
-To run integration tests,run the following command:
-```
-rspec spec/integrations
-```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-### Live demo <a id='live'></a>
-
-To view the live demo visit click [here](https://spec-mytracker.onrender.com/)
 
 ## 👥 Author <a id="authors"></a>
 
@@ -131,7 +115,7 @@ To view the live demo visit click [here](https://spec-mytracker.onrender.com/)
 
 ## 🔭 Future Features <a id="future-features"></a>
 
-- Infinite scrolling
+- More data models
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +123,7 @@ To view the live demo visit click [here](https://spec-mytracker.onrender.com/)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/skabeo/23-books/issues).
+Feel free to check the [issues page](https://github.com/skabeo/rails-api/issues).
 
 If you would like to contribute to this project, you can follow these steps:
 
@@ -164,8 +148,6 @@ I would like to express my gratitude to the following individuals and organizati
 - [GitHub](https://github.com/): Platform for version control and collaboration
 - [Microverse](https://www.microverse.org/): Global school for remote software developers
 
-A special thanks to [Gregoire Vella](https://www.behance.net/gregoirevella) for the design inspiration
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,6 +162,6 @@ A special thanks to [Gregoire Vella](https://www.behance.net/gregoirevella) for 
 
 ## 📝 License <a id="license"></a>
 
-This project is [MIT](https://github.com/skabeo/23-books/blob/develop/LICENSE) licensed.
+This project is [MIT](https://github.com/skabeo/rails-api/blob/develop/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
