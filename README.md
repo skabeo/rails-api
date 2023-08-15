@@ -99,7 +99,7 @@ rails server
 ```
 
 ### Frontend repository
-To access the frontend script that utilises this backend script, please refer to the instructions in the README of the frontend repository linked [here](https://github.com/skabeo/rails-api)
+To access the frontend script that utilises this backend script, please refer to the instructions in the README of the frontend repository linked [here](https://github.com/skabeo/greetings-frontend/pull/1)
 
 
 ## 👥 Author <a id="authors"></a>
