@@ -8,7 +8,7 @@
 # 📗 Table of Contents <a id="table-of-contents"></a>
 
 - [📗 Table of Contents ](#-table-of-contents-)
-- [📖 Rails api Project ](#-catalog-ruby-project-)
+- [📖 Rails ap Project ](#-catalog-ruby-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
